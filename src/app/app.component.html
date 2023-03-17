@@ -1,12 +1,33 @@
 <div *ngFor="let pytania of pytania">
   <div *ngIf="increase == 1">
     <div *ngIf="pytania.id == 1">
-      <p>{{ pytania.p1 }}</p>
-      <p>{{ pytania.p2 }}</p>
-      <p>{{ pytania.p3 }}</p>
-      <p>{{ pytania.p4 }}</p>
-      <p>{{ pytania.p5 }}</p>
-      <p>{{ pytania.p6 }}</p>
+      <button (click)="p1f()">🅱</button>
+      <p *ngIf="p1">{{ pytania.p1 }}</p>
+      <button (click)="p2f()">🅱</button>
+      <p *ngIf="p2">{{ pytania.p2 }}</p>
+      <button (click)="p3f()">🅱</button>
+      <p *ngIf="p3">{{ pytania.p3 }}</p>
+      <button (click)="p4f()">🅱</button>
+      <p *ngIf="p4">{{ pytania.p4 }}</p>
+      <button (click)="p5f()">🅱</button>
+      <p *ngIf="p5">{{ pytania.p5 }}</p>
+      <button (click)="p6f()">🅱</button>
+      <p *ngIf="p6">{{ pytania.p6 }}</p>
+      <button (click)="add()">Next</button>
+    </div>
+  </div>
+  <div *ngIf="increase == 2">
+    <div *ngIf="pytania.id == 2">
+      <button (click)="p1f()">🅱</button>
+      <p *ngIf="p1">{{ pytania.p1 }}</p>
+      <button (click)="p2f()">🅱</button>
+      <p *ngIf="p2">{{ pytania.p2 }}</p>
+      <button (click)="p3f()">🅱</button>
+      <p *ngIf="p3">{{ pytania.p3 }}</p>
+      <button (click)="p4f()">🅱</button>
+      <p *ngIf="p4">{{ pytania.p4 }}</p>
+      <button (click)="p5f()">🅱</button>
+      <p *ngIf="p5">{{ pytania.p5 }}</p>
       <button (click)="add()">Next</button>
     </div>
   </div>
