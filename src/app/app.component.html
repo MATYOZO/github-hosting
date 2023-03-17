@@ -1,0 +1,13 @@
+<div *ngFor="let pytania of pytania">
+  <div *ngIf="increase == 1">
+    <div *ngIf="pytania.id == 1">
+      <p>{{ pytania.p1 }}</p>
+      <p>{{ pytania.p2 }}</p>
+      <p>{{ pytania.p3 }}</p>
+      <p>{{ pytania.p4 }}</p>
+      <p>{{ pytania.p5 }}</p>
+      <p>{{ pytania.p6 }}</p>
+      <button (click)="add()">Next</button>
+    </div>
+  </div>
+</div>
