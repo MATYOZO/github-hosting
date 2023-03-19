@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 3rem;
+}
+
+button {
+  background-color: #202020;
+  border: none;
+  border-bottom: dotted #d7af2e 2px;
+  width: 40vw;
+  margin-top: 5rem;
+  color: #202020;
+}
+
+.odp {
+  margin-top: 2rem;
+  margin-bottom: -5rem;
+}
+
+.pyt {
+  font-size: 4.5rem;
+  position: absolute;
+  top: 5%;
+}
+
+.bledy {
+  font-size: 8rem;
+}
+
+.tblue {
+  position: absolute;
+  left: 10%;
+  top: 30%;
+}
+
+.tred {
+  position: absolute;
+  right: 10%;
+  top: 30%;
+}
